@@ -1,0 +1,51 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2752" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zJylQsJusNT-7ujvTZey-8" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1610" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-11" value="Declare variables for Customer’s Last Name, Number of Bathrooms, Number of Other Rooms, and Service Charge." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1620" y="260" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-12" target="zJylQsJusNT-7ujvTZey-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-12" value="&lt;div&gt;Ask for the customer&#39;s last name.&lt;/div&gt;&lt;div&gt;Ask for the number of bathrooms.&lt;/div&gt;&lt;div&gt;Ask for the number of other rooms.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1640" y="520" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-13" target="zJylQsJusNT-7ujvTZey-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-13" value="&lt;div&gt;Calculate total bathroom cost: Number of Bathrooms * 15&lt;/div&gt;&lt;div&gt;Calculate total room cost: Number of Other Rooms * 10&lt;/div&gt;&lt;div&gt;Calculate total service charge: 40 + Total Bathroom Cost + Total Room Cost&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1260" y="520" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-8" target="zJylQsJusNT-7ujvTZey-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.373;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-11" target="zJylQsJusNT-7ujvTZey-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-17" value="&lt;div&gt;Display customer’s name.&lt;/div&gt;&lt;div&gt;Display the number of bathrooms and cost.&lt;/div&gt;&lt;div&gt;Display the number of other rooms and cost.&lt;/div&gt;&lt;div&gt;Display total service charge.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1280" y="760" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-19" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1000" y="975" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-21" target="zJylQsJusNT-7ujvTZey-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-21" value="Program Complete" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1230" y="970" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zJylQsJusNT-7ujvTZey-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJylQsJusNT-7ujvTZey-17" target="zJylQsJusNT-7ujvTZey-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
