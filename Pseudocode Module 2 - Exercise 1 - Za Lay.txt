@@ -1,0 +1,36 @@
+// Start of Program
+Start
+
+// Step 1: Declaring Variables
+// This section saves the measurements for the refrigerator in inches.
+Declare Height as Integer
+Declare Width as Integer
+Declare Depth as Integer
+// Also includes space for the volume in cubic inches and cubic feet.
+Declare CubicInches as Float
+Declare CubicFeet as Float
+
+// Step 2: Prompting User for Input
+// Requests the user to enter the height, width, and depth.
+Display "Enter the height of the refrigerator in inches:"
+Input Height
+Display "Enter the width of the refrigerator in inches:"
+Input Width
+Display "Enter the depth of the refrigerator in inches:"
+Input Depth
+
+// Step 3: Calculating the Volume in Cubic Inches
+// Computes the volume by multiplying height, width, and depth.
+Set CubicInches = Height * Width * Depth
+
+// Step 4: Converting Cubic Inches to Cubic Feet
+// Divides by 1728 to convert cubic inches to cubic feet.
+Set CubicFeet = CubicInches / 1728
+
+// Step 5: Displaying the Result
+// Outputs the refrigerator's size in cubic feet.
+Display "The refrigerator size is:", CubicFeet, "cubic feet."
+
+// End of Program
+Display "End of program"
+Stop

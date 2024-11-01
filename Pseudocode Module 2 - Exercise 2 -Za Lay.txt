@@ -1,0 +1,35 @@
+// Start of Program
+Start
+
+// Step 1: Declaring Variables
+// Set up the variables to hold account information and calculate fees.
+Declare AccountBalance as Float
+Declare OverdraftCount as Integer
+Declare Fee as Float
+
+// Step 2: Initializing Variables
+// Initialize the account balance and overdraft count.
+Set AccountBalance = 0
+Set OverdraftCount = 0
+
+// Step 3: Asking for User Input
+// Prompt the user to enter the account balance.
+Display "Enter the current account balance:"
+Input AccountBalance
+
+// Prompt the user to enter the number of times the account was overdrawn.
+Display "Enter the number of overdrafts this month:"
+Input OverdraftCount
+
+// Step 4: Calculating the Fee
+// Calculate the monthly fee: 1% of the balance minus $5 for each overdraft.
+Set Fee = (AccountBalance * 0.01) - (OverdraftCount * 5)
+
+// Step 5: Displaying Results
+// Show the calculated fee to the user.
+Display "The calculated fee for this month is:", Fee
+Display "Thanks for using this program."
+
+// End of Program
+Display "End of program"
+Stop
